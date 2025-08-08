@@ -1,1 +1,51 @@
 <!-- IMAGENES y RUTAS -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formularios</title>
+</head>
+<body>
+    <form>
+        <!--
+name	        Indica el nombre del campo. Útil para hacer referencia a la información almacenada.
+type	        Indica la naturaleza de datos que se espera del usuario (texto, número, fechas, etc...).
+value	        Indica el valor inicial que tendrá este campo de datos. Si se omite, está vacío.
+form	        Asocia este campo con un formulario específico. Útil si necesitamos tenerlo fuera del <form>.
+list	        En algunos <input> permite combinar con otra etiqueta para personalizarla. Lo veremos más adelante.
+placeholder	    Indica una sugerencia al usuario antes de escribir el valor en el campo.
+size	        Tamaño visual (aprox: número de carácteres) del campo de datos.
+autocomplete	Activa on o desactiva off el autocompletado para este campo. Activado por defecto.
+autofocus	    Establece el foco (coloca el cursor) en este campo al cargar la página.
+minlength       Cantidad minima de caracteres que recibe.
+        -->
+        <tag>Nombre</tag>
+        <input type="text" name="username">
+        <br>
+        <tag>Email</tag>
+        <input type="email" name="email", required>
+        <br>
+        <tag>Contraseña</tag>
+        <input type="password" name="password", required>
+        <br>
+        <tag>Fecha</tag>
+        <input type="date" name="date">
+        <br>
+        <tag>Checkbox</tag>
+        <input type="checkbox" name="checkbox">
+        <br>
+        <tag>Radio</tag>
+        <input type="radio" name="radio">
+        <br>
+        <tag>Archivo</tag>
+        <input type="file" name="file">
+        <br>
+        <tag>Color</tag>
+        <input type="color" name="color">
+        <br>
+        <tag>Submit</tag>
+        <input type="submit" name="submit" value="enviar form">
+    </form>
+</body>
+
+</html>
