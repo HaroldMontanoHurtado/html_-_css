@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    border-radius: 12px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.582);
+    transition: all 0.3s ease; /* Transition solo es para dar un efecto cuando hay cambios en el código */
+    position: relative;
+}
+
+
+/* Red Green Blue Alpha (RGBA). 
+Funciona en rangos de 0 a 255, entre más cerca a 256, más intenso ese color
+*/
+.box1 {
+    background: RGBA(256, 0, 0, 255);
+}
+
+/* Hexadecimal
+Usando su base 16, se divide en dos valores para intensidad de un color rgb.
+Siendo FF el punto más intenso de un color, y 00 el más bajo; tambien se puede simplicar en un formato más complacto, en lugar de usar dos valores, se puede usar solo uno, por ejemplo rojo #f00. Tambien se le puede aplicar una capa alpha, para la tranparencia.
+*/
+.box2 {
+    background: #0f0f;
+}
+
+/* Hue, Saturation, Lightness, Alpha (hsla)
+Usa la paleta de colores como un una circulo cromatico, guiado por grados de inclinación. Empezando con el rojo en 0°, verde en 90° y azul en 240°, y ya el resto de colores intermedios.
+Luego se compensa con los niveles de saturacion, luminocidad y transparencia; La luminocidad indica que tan lejos o cerca estamos del negro y el blanco
+*/
+.box3 {
+    background: hsla(240, 100%, 50%, 100%);
+}
+
+span {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
