@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+.card {
+    background-color: coral;
+    text-align: center;
+    width: 300px;
+    margin: auto; /* IMPORTANTE para poder centrar horizontalmente */
+    margin-top: 20px;
+}
+
+h1{
+    margin: 0;
+}
+
+h2 {
+    padding-top: 10px;
+    font-size: 22px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 9px;
+    padding: 20px;
+    background-color: lightcoral;
+    text-align: justify;
+}
