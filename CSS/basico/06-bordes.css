@@ -1,0 +1,39 @@
+.div_ejemplo {
+    background-color: red;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.div_ejemplo {
+/*  Remplasables con una unica función
+    border-width: 10px;
+    border-style: groove;
+    border-color: darkblue;
+*/  
+    border: 5px solid darkslategrey;
+    /* orden:  top-left; bottom-right; top-right; bottom-left */
+    border-radius: 0 15px 15px 0;
+    border-bottom-color: black;
+}
+
+.div_input {
+    border: 0 solid black;
+    border-radius: 3px;
+}
+
+input {
+    margin: 5px;
+    padding: 6px 9px;
+    border: none;
+    border-bottom: 1px solid purple;
+    border-left: 1px solid purple;
+    border-bottom-left-radius: 3px;
+    background-color: whitesmoke;
+    color: purple;
+}
+
+h1 {
+    font-size: large;
+    margin: 0;
+}
