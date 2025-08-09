@@ -1,0 +1,36 @@
+div {
+    background: red;
+    width: 100%;
+    height: 300px;
+}
+
+/* contenido en el div */
+h1 {
+    background: blue;
+    height: auto;
+    text-align: center;
+    padding: 15px 0;
+}
+
+/* contenido en el div */
+.formulario {
+    background-color: cadetblue;
+    margin: 2%;
+    padding: 8%;
+    width: 80%; /* % del tamaño del div*/
+}
+
+/* contenido en el form */
+.formulario_input {
+    padding: 2% 3%;
+    width: 90%; /* % del tamaño del form*/
+    margin: 10px;
+}
+
+.formulario_submit {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: gold;
+    width: 50%;
+    margin: 0% 25%;
+}
