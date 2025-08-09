@@ -1,0 +1,24 @@
+
+div {
+    background: red;
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+}
+
+/* contenido en el div */
+h1 {
+    background: blue;
+    height: auto;
+    text-align: center;
+}
+
+/* contenido en el div */
+form {
+    width: 90%; /* 90% del tamaño del div*/
+}
+
+/* contenido en el form */
+input {
+    width: 90%; /* 90% del tamaño del form*/
+}
