@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 20px;
+    margin: auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+    box-sizing: border-box;
+    /* Super IMPORTANTE el box-sizing. Útil para que las medidas se tomen dependiendo del tamaño de la caja (content, padding nd border, pero no margin) */
+}
+
+.default-box {
+    padding: 30px;
+    border: 10px solid black;
+}
+
+.new-box {
+    box-sizing: border-box;
+    padding: 25px;
+    border: 10px solid darkblue;
+}
