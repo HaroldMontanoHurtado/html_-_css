@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 70vw;
+    height: 80vh;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.box1 {
+/* box-shadow: 
+    distancia horizontal 
+    distancia vertical
+    distancia de expasión
+    distancia de desenfoque/difuminado
+    distancia de expansión
+    color
+*/
+    box-shadow: 50px 10px 15px 0 #0007;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.4;
+    font-size: small;
+    text-shadow: 1px 2px 3px #f88;
+}
+
+img {
+    margin: auto;
+}
+
+.puercoespin {
+    width: 10em;
+    border-radius: 100%;
+    box-shadow: 0 0 40px 0 #f88;
+}
+
+.flores {
+    width: 12em;
+    height: 10em;
+    filter: drop-shadow(0 0 15px #f88);
+}
