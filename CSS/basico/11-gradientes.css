@@ -1,0 +1,36 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.box {
+    width:  60%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    border-top: 6px solid rgb(0, 73, 73);
+    
+}
+
+.box1 {
+    background: linear-gradient(to left, transparent, #000, transparent);
+}
+
+.box2 {
+    background: radial-gradient(transparent, #000);
+}
+
+.box3 {
+    background: conic-gradient(transparent, #000);
+}
+
+h2 {
+    margin: 0;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 25%;
+
+}
