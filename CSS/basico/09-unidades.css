@@ -1,0 +1,46 @@
+html {
+    /* Elemento / clase raiz
+    Es acá donde vendrá a buscar el tamaño de la fuente la medida rem
+    */
+    font-size: 18px;
+}
+
+
+div {
+    background: #ededed;
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    font-size: 16px; 
+    /* 16px es el valor por defecto 
+    En la clase padre se definen las medida desde las cuales se calcularan las medidas em
+    */
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.5rem; 
+    background: red;
+    height: 50vh;
+    width: 90vw;
+}
+
+span {
+    color: #999;
+    font-size: 50%; /* Este porcentaje es en relación a su clase padre, en este caso al h1 */
+    font-weight: 100;
+}
+
+p {
+    color: #555;
+    background: #9995;
+    text-align: justify;
+    font-size: 0.9em; /* el tamaño de la fuente es 1 vez lo que mide la fuente de la clase padre (div) */
+}
+
+/*
+Si nunca se definio el font-size en su elemento padre, irá a buscar el font-size en el padre de ese mismo
+*/
