@@ -1,0 +1,19 @@
+body {
+    background-color: #333;
+    color: #ddd;
+    border: 1px solid;
+}
+
+details {
+    background-color: transparent;
+    padding: 9px;
+}
+
+details[open] {
+    background-color: #444;
+    border: 1px solid;
+}
+
+summary {
+    padding: 9px;
+}
