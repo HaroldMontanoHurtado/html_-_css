@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina sobre variedad de peliculas en cartelera, las ultimas peliculas que se están presentando">
+    <meta name="keywords" content="pelicula, peliculas, ultima, ultimas, cartelera, palomitas, crispetas, promoción">
+    <meta name="author" content="Harold Montano">
+    <meta name="robots" content="nofollow"> <!-- Ayuda a que los motores de busqueda no muestren la página -->
+    <!-- content="nosnippet" Ayuda a que los motores de busqueda no pueda mostrar fragmentos de mi página cuando es encontrada y contiene la info que busca -->
+    <!-- content="noarchive" Ayuda a que los motores de busqueda no almacen la info en la caché -->
+    <!-- content="noimageindex" Ayuda a que se indexen las imagenes -->
+    <meta name="title" content="Peliculas">
+    <title>Peliculas</title>
+    <link rel="icon" href="/HTML/basico/img/visual-basic.png" type="image/png">
+    <link rel="stylesheet" href="css/02-labels.css">
+</head>
+<body>
+    
+    <form action="">
+        <h2>
+            Registro
+        </h2>
+        <!-- Se pueden enlazar los labels y los inputs haciendo conexion a traves de un id y un for -->
+        <div class="form_input">
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" type="text" placeholder="José Perez">
+        </div>
+        <div class="form_input">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="ejemplo@gmail.com">
+        </div>
+        <!-- Tambien se pueden enlazar los labels y los inputs construyendo el input dentro del label. Esto lo vincula por defecto -->
+        <div class="form_input">
+            <label>Contraseña
+                <input type="password" placeholder="contraseña123">
+            </label>
+        </div>
+        <div class="form_input">
+            <label>Mensaje
+                <textarea maxlength="100" name="mesagge"placeholder="Escribe un mensaje" rows="6"></textarea>
+            </label>
+        </div>
+        <div class="form_input">
+            <label> Acepto los terminos y condiciones
+                <input class="checkbox" type="checkbox">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
