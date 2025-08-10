@@ -1,0 +1,53 @@
+body{
+    background-color: green;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    margin: 20px 0;
+    background-color: #0007;
+    background-image: url("https://i.pinimg.com/736x/0c/7a/00/0c7a0087cf2a1ca80ca95aaa29ca522e.jpg");
+}
+
+.box1 {
+    background-size: 100%; /* con esto se corrige el recorte de la imagen por la falta de espacio, pero solo en ancho. Se garantiza que el 100% de la imagen quepa a lo ancho */
+    background-attachment: fixed; 
+    /* deja una imagen fija, mientras nos permite desplazarnos */
+}
+
+.box2 {
+    width: 600px;
+    height: 200px;
+    background-size: contain; /* Tambien corrige que la imagen entra, pero la fuerza a enjar en las proporsiones */
+}
+
+.box3 {
+    width: 200px;
+    height: 500px;
+    background-size: cover; /* Cover es como el 100%*/
+    background-position: center; 
+}
+
+.box4 {
+    width: 600px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* incluso se podría hacer 100% transparente el fondo */
+}
+
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: #0007;
+}
+
+h2 {
+    color: lightgray;
+    padding: 5%;
+    text-align: center;
+}
